@@ -1,3 +1,5 @@
+//@author: DevProblems(Sarang Kumar A Tak)
+
 resource "aws_lambda_function" "aws-lambda-local-test-sam-terraform" {
     filename = "${local.lambda_build_path}/${local.lambda_zip_file_name}"
     handler = "main"

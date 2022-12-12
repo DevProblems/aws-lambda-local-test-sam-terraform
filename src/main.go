@@ -6,6 +6,8 @@ import (
 	"github.com/aws/aws-lambda-go/lambda"
 )
 
+//@author: DevProblems(Sarang Kumar A Tak)
+
 type Request struct {
 	FirstName string
 	LastName  string
