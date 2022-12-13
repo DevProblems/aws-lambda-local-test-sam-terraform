@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to SAM CLI",
+            "type": "go",
+            "request": "attach",
+            "mode": "remote",
+            "port": 9999
+        }
+    ]
+}
